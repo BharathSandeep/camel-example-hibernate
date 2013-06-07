@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1370613219672
+Build-Jdk: 1.6.0_43
+Built-By: ramesh.rajendran
+Bundle-ManifestVersion: 2
+Bundle-Name: Camel Extra :: Component Examples :: A Camel Hibernate Demo
+Bundle-SymbolicName: hibernate
+Bundle-Version: 2.10.1
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.apacheextras.camel.examples.hibernate;uses:="javax.p
+ ersistence";version="2.10.1"
+Import-Package: javax.persistence,org.apache.commons.dbcp,org.apacheextr
+ as.camel.component.hibernate;version="[2.10,3)",org.springframework.orm
+ .hibernate3;version="[3.0,4)",org.springframework.transaction.support;v
+ ersion="[3.0,4)"
+Tool: Bnd-1.50.0
